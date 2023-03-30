@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Infection rate per 1m vs Fatality rate per 1m</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="368b1845-ed9e-4b2b-bbbc-413fb4fa21c7" data-root-id="1066"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1245">
+          {"6113fd22-f277-451d-ba5f-137f87e67367":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1115","type":"Selection"},{"attributes":{},"id":"1113","type":"AllLabels"},{"attributes":{"ticker":null},"id":"1110","type":"LogTickFormatter"},{"attributes":{"data":{"Case_fatality_rate":{"__ndarray__":"8fDw8PDwAEBHT6oasJ31P3jkF/BCn+0/8wkTg7zSJ0Bdd9R0St0QQB83mnnbUglAQ1U56EzGHEDBmop+ztkFQPTzb0w//xRA2vu8LpBrCUDjiQ/GI+L7P8Qib2h+MRdAb5HJP6m9FUDviviY7RYoQHyvAjzuNw9AqBGWexphBUDwePUFnR0OQEl/KiTVqwhAYhbUE6c6/T9SVxLplFcRQGqv70YmAhdA6M01l5S4CECU/yTHUbLpP7K9d9zxAitAme8TY1lV/j8rZGokM1L2PzbIlqnFQ+Q/BeWGXSyiJUBU7g1cxy78P4FR0BaYPSJAlOFLTH56/j9lo6SGR1/oP1ATUwf/CAFAhOohr61ZAUB+vo2uJFcSQBZIcWaezfg/NvSgE5oACUDxgojER7AJQNQ5Gw0WF8U/ZOG205nCEECGGeDTa377P5Sf5RUoiwFAL0t96xlU8z8ee4ILLHioP6uq9jLymRtAdUNTqwO5GkB0GCQBytcCQEtK/QNzyOE/Rww+DO83KUC+GPM067EIQE7Z3V6+JwFA","dtype":"float64","order":"little","shape":[51]},"Cases":[370175,302147,70974,82936,112094,3717156,126417,402365,89784,572270,92557,110549,97825,253587,237936,9280,70714,56649,3310234,160165,363363,215784,108964,262540,64668,127664,82271,573888,55864,68046,53021,84818,294638,89082,613378,202361,63802,56274,117742,81646,970865,615701,310836,56495,419849,87072,262507,68020,328846,5821876,112059],"Color":["#fdae61","#5e4fa2","#abdda4","#abdda4","#fdae61","#fdae61","#fdae61","#fdae61","#5e4fa2","#fdae61","#fdae61","#fdae61","#9e0142","#abdda4","#abdda4","#abdda4","#fdae61","#fdae61","#5e4fa2","#5e4fa2","#5e4fa2","#5e4fa2","#5e4fa2","#abdda4","#5e4fa2","#5e4fa2","#5e4fa2","#fdae61","#9e0142","#abdda4","#9e0142","#5e4fa2","#5e4fa2","#fdae61","#fdae61","#5e4fa2","#abdda4","#abdda4","#5e4fa2","#abdda4","#abdda4","#9e0142","#5e4fa2","#5e4fa2","#abdda4","#abdda4","#5e4fa2","#5e4fa2","#abdda4","#fdae61","#abdda4"],"Continent":["America","Asia","Europe","Europe","America","America","America","America","Asia","America","America","America","Africa","Europe","Europe","Europe","America","America","Asia","Asia","Asia","Asia","Asia","Europe","Asia","Asia","Asia","America","Africa","Europe","Africa","Asia","Asia","America","America","Asia","Europe","Europe","Asia","Europe","Europe","Africa","Asia","Asia","Europe","Europe","Asia","Asia","Europe","America","Europe"],"Countries":["Argentina","Bangladesh","Belarus","Belgium","Bolivia","Brazil","Canada","Chile","China","Colombia","Dom.Rep.","Ecuador","Egypt","France","Germany","Greece","Guatemala","Honduras","India","Indonesia","Iran","Iraq","Israel","Italy","Japan","Kazakhstan","Kuwait","Mexico","Morocco","Netherlands","Nigeria","Oman","Pakistan","Panama","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia","S.Africa","S.Arabia","Singapore","Spain","Sweden","Turkey","UAE","UK","USA","Ukraine"],"Date":{"__ndarray__":"AADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAAAeBQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndCAADAbNNCd0IAAMBs00J3QgAAwGzTQndC","dtype":"float64","order":"little","shape":[51]},"Deaths":[7839,4082,657,9879,4726,117665,9094,10990,4713,18184,1613,6410,5317,30544,9285,248,2662,1747,60472,6944,20901,6668,875,35458,1226,1781,521,62076,984,6206,1010,646,6274,1932,28124,3137,1994,1807,194,3421,16683,13502,3755,27,28971,5817,6183,378,41465,179714,2403],"Infection_rate_per_1m":{"__ndarray__":"sw/SRzMlwEAkghvxjPScQBxp/OWPVL1ABmn5QNRHvEDkO40dGwTDQEvn7w0uM9FAq4ZI1UVmqkACcjDnrLvUQFeOvMpmT09AfE5Vghw0xkARDJlSZ9XAQEbYODIG27hAtuPEH79zjkCs8KBRTpCtQL6xrRoSZKZAqaqrQWcKi0CG6PT1JWyvQAgN1Up4tLZAnY8JmCDtokBemF3qqH6CQMEJk/dpHrFAIztC2VFxtUASV+ZREvvIQC3ufxqa/bBAQjlWFB/cf0BlU3hnoOG6QLkmG3vYGNNAxhtG5WqSsUAM7rFN0u6XQBKD5m+1wq5AR+FpbVd9cEDF8OPIN6bQQDeyvDAEQpVA2Gj5vIJ81EALDQ4hxmzSQFlJunPEPp1ALqnl/c5AmkDdZi4z7WO1QPHzu7nQTORAFksHLmxtsED4njddlf+5QFRAE10qicRAE6jeWky3wUDMvg1SnQLDQK8cb9B3eMFA3aBgOqSfwEB7vl6BTgKpQO7DdBDBMbtACXbbJCNGs0D6TOeRC0fRQLgIQ7FT5qNA","dtype":"float64","order":"little","shape":[51]},"Mortality_rate_per_1m":{"__ndarray__":"3qsWu7PhZUAEXIanLQk5QPdzc8tjYFFA+YIEXgjzikB5s2JU0qd5QJm+jXsvbIFAhpm6tKpibkD4kU5kFB+CQHw5z5r+SwpANsF2j6STdkDRXUoBbcZiQPWsYaowD3dAtWgrWXN7SkD7ph7yr3x8QA17xXTc9VtA8AJVL9kfN0C2hK52Ge1iQFG0IHgHaGZAS0jDMMAgRkAPRfi4uKg5QKkHx92Vgm9AGMoUDhA0ZUD1uMLxQK1ZQJSjgUuSW4JAtSF3nA5UI0DWRdCPNwBYQAEaFl2x9V5AhfBzSFFpfkBvQSl20vo6QC4/77yTcXZA/aJOkGcaFECn91K8LjtgQFxkywRx+DxA8pqiaYJvfECHVH9cmgiLQDSMiL7UAz1AScSwynBBSkCcT9sgwfplQH0BKiUSIFFAm8XpL68GZkCM29L8f5dcQF9rDEVc0mxAXTcZM9lkW0CX0/ttVJsSQF3uy7fYSYNAqKAoL+TEgUDSXBIUh9lSQDBH1U4JWENAKsnDikJxg0DtGXtMFRGBQOnxMDqOT0tA","dtype":"float64","order":"little","shape":[51]},"Population":{"__ndarray__":"AAAAGGRahUEAAAA6xm+jQQAAACBvB2JBAAAA4IPZZUEAAADAofVlQQAAAF64KKlBAAAA8MbWgUEAAAAw9hJyQQAAAGNzXdVBAAAAmPMAiEEAAACgoXtkQQAAAJCdkXBBAAAAsDPvl0EAAACYSPSPQQAAADQXy5NBAAAA4J50ZEEAAABAWsRwQQAAAGDYlmJBAAAAV3hc1EEAAAAfayGwQQAAAJSpxJNBAAAA6I6+gkEAAACg2T9gQQAAANAbyIxBAAAALPA+nkEAAABAKLFxQQAAAEB5DFBBAAAApJdqnkEAAACwHmSBQQAAADBHe3BBAAAAJuz0p0EAAAAAZPpSQQAAAIoM0alBAAAAAOoyUEEAAADgHwF/QQAAADjqxplBAAAAYFobgkEAAAAg4ZljQQAAAIBjm0VBAAAAoNuDckEAAAAIq2OhQQAAANg57ItBAAAAiCtXgEEAAADATSRWQQAAACCfYYZBAAAAIDWDY0EAAACoHo2TQQAAAMDDomJBAAAAQKLHj0EAAADVIZ2zQQAAAFhR+oRB","dtype":"float64","order":"little","shape":[51]}},"selected":{"id":"1115"},"selection_policy":{"id":"1114"}},"id":"1065","type":"ColumnDataSource"},{"attributes":{"index":0,"label":{"value":"America"},"renderers":[{"id":"1106"}]},"id":"1119","type":"LegendItem"},{"attributes":{"coordinates":null,"data_source":{"id":"1065"},"glyph":{"id":"1103"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1105"},"nonselection_glyph":{"id":"1104"},"view":{"id":"1107"}},"id":"1106","type":"GlyphRenderer"},{"attributes":{"index":2,"label":{"value":"Europe"},"renderers":[{"id":"1106"}]},"id":"1121","type":"LegendItem"},{"attributes":{"coordinates":null,"dimension":"height","group":null,"line_dash":[6],"location":3852.791871577906},"id":"1126","type":"Span"},{"attributes":{"index":12,"label":{"value":"Africa"},"renderers":[{"id":"1106"}]},"id":"1118","type":"LegendItem"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"1118"},{"id":"1119"},{"id":"1120"},{"id":"1121"}]},"id":"1117","type":"Legend"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"Color"},"hatch_alpha":{"value":0.2},"hatch_color":{"field":"Color"},"line_alpha":{"value":0.2},"size":{"value":12},"x":{"field":"Infection_rate_per_1m"},"y":{"field":"Mortality_rate_per_1m"}},"id":"1105","type":"Circle"},{"attributes":{"logo":"grey","tools":[{"id":"1085"},{"id":"1086"},{"id":"1087"},{"id":"1088"},{"id":"1089"},{"id":"1090"}]},"id":"1092","type":"Toolbar"},{"attributes":{"source":{"id":"1065"}},"id":"1107","type":"CDSView"},{"attributes":{},"id":"1114","type":"UnionRenderers"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1091","type":"BoxAnnotation"},{"attributes":{"coordinates":null,"group":null,"source":{"id":"1065"},"text":{"field":"Countries"},"text_align":{"value":"center"},"text_color":{"value":"black"},"text_font_size":{"value":"11px"},"text_font_style":{"value":"bold"},"x":{"field":"Infection_rate_per_1m"},"y":{"field":"Mortality_rate_per_1m"},"y_offset":{"value":8}},"id":"1123","type":"LabelSet"},{"attributes":{},"id":"1090","type":"SaveTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"Color"},"hatch_alpha":{"value":0.1},"hatch_color":{"field":"Color"},"line_alpha":{"value":0.1},"size":{"value":12},"x":{"field":"Infection_rate_per_1m"},"y":{"field":"Mortality_rate_per_1m"}},"id":"1104","type":"Circle"},{"attributes":{"overlay":{"id":"1091"}},"id":"1088","type":"BoxZoomTool"},{"attributes":{},"id":"1087","type":"WheelZoomTool"},{"attributes":{"callback":null,"tooltips":[["Country","@{Countries}"],["Infection rate per 1m","@Infection_rate_per_1m{0,0}"],["Fatality_rate_per_1m","@Mortality_rate_per_1m{0,0}"],["Cases","@Cases{0,0}"],["Deaths","@Deaths{0,0}"]]},"id":"1085","type":"HoverTool"},{"attributes":{},"id":"1100","type":"NumeralTickFormatter"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"field":"Color"},"hatch_color":{"field":"Color"},"size":{"value":12},"x":{"field":"Infection_rate_per_1m"},"y":{"field":"Mortality_rate_per_1m"}},"id":"1103","type":"Circle"},{"attributes":{"index":1,"label":{"value":"Asia"},"renderers":[{"id":"1106"}]},"id":"1120","type":"LegendItem"},{"attributes":{"num_minor_ticks":10},"id":"1082","type":"LogTicker"},{"attributes":{"background_fill_color":"#dddddd","below":[{"id":"1077"}],"center":[{"id":"1080"},{"id":"1084"},{"id":"1117"},{"id":"1123"},{"id":"1125"},{"id":"1126"},{"id":"1127"}],"left":[{"id":"1081"}],"renderers":[{"id":"1106"}],"title":{"id":"1067"},"toolbar":{"id":"1092"},"toolbar_location":"above","width":1200,"x_range":{"id":"1069"},"x_scale":{"id":"1073"},"y_range":{"id":"1071"},"y_scale":{"id":"1075"}},"id":"1066","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"1081"},"coordinates":null,"dimension":1,"grid_line_color":"white","group":null,"ticker":null},"id":"1084","type":"Grid"},{"attributes":{},"id":"1069","type":"DataRange1d"},{"attributes":{"background_fill_color":"white","border_line_color":"black","coordinates":null,"group":null,"render_mode":"css","text":"Dashed lines show the average of each axis","text_color":"black","text_font_size":"12px","text_font_style":"bold","x":100,"y":12},"id":"1127","type":"Label"},{"attributes":{"axis_label":"Fatality rate per 1m","axis_label_text_font_size":"14pt","coordinates":null,"formatter":{"id":"1110"},"group":null,"major_label_policy":{"id":"1111"},"major_label_text_font_size":"14pt","ticker":{"id":"1082"}},"id":"1081","type":"LogAxis"},{"attributes":{"coordinates":null,"group":null,"text":"Infection rate per 1m vs Fatality rate per 1m"},"id":"1067","type":"Title"},{"attributes":{},"id":"1086","type":"PanTool"},{"attributes":{},"id":"1075","type":"LogScale"},{"attributes":{},"id":"1111","type":"AllLabels"},{"attributes":{"axis_label":"Infection rate per 1m","axis_label_text_font_size":"14pt","coordinates":null,"formatter":{"id":"1100"},"group":null,"major_label_policy":{"id":"1113"},"major_label_text_font_size":"14pt","ticker":{"id":"1078"}},"id":"1077","type":"LogAxis"},{"attributes":{},"id":"1071","type":"DataRange1d"},{"attributes":{"coordinates":null,"group":null,"line_dash":[6],"location":134.24362391262568},"id":"1125","type":"Span"},{"attributes":{"axis":{"id":"1077"},"coordinates":null,"grid_line_color":"white","group":null,"ticker":null},"id":"1080","type":"Grid"},{"attributes":{"num_minor_ticks":10},"id":"1078","type":"LogTicker"},{"attributes":{},"id":"1089","type":"ResetTool"},{"attributes":{},"id":"1073","type":"LogScale"}],"root_ids":["1066"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1245').textContent;
+                  const render_items = [{"docid":"6113fd22-f277-451d-ba5f-137f87e67367","root_ids":["1066"],"roots":{"1066":"368b1845-ed9e-4b2b-bbbc-413fb4fa21c7"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
